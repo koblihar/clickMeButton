@@ -1,0 +1,16 @@
+.button {
+    background-color: aliceblue;
+    color: black;
+    margin: 0%;
+    font-family: Arial;
+    font-weight: bolder;
+    border-radius: 3px;
+    border: none;
+    padding: 30px;
+}
+
+body {
+    background-color: black;
+    max-height: 100vh;
+    max-width: 100wh;
+}

@@ -1,16 +1,44 @@
-.button {
+* {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+
+a {
     background-color: aliceblue;
     color: black;
-    margin: 0%;
-    font-family: Arial;
+    font-family: 'Gill Sans';
     font-weight: bolder;
     border-radius: 3px;
-    border: none;
-    padding: 30px;
+    padding: 1vh;
+    top: 40vh;
+    left: 40vw;
+    text-decoration: none;
+    position:relative;
 }
 
 body {
     background-color: black;
     max-height: 100vh;
-    max-width: 100wh;
+    max-width: 100vh;
+}
+
+h1 {
+    font-family: Arial;
+    color: white;
+    font-size: 20px;
+    margin-left: 1vw;
+    margin-top: 1vh;
+    background-color: rgb(58, 53, 53);
+    display: inline-block;
+    padding: 5px;
+    border-radius: 3px;
+    display: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+     user-select: none;
 }

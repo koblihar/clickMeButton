@@ -1,4 +1,4 @@
-.button {
+a {
     background-color: aliceblue;
     color: black;
     margin: 0%;
@@ -7,10 +7,33 @@
     border-radius: 3px;
     border: none;
     padding: 30px;
+    position: absolute;
+    z-index: 0;
 }
 
 body {
     background-color: black;
     max-height: 100vh;
     max-width: 100wh;
+}
+
+h1 {
+    color: aliceblue;
+    margin: 30vh;
+    background-color: black;
+    display: none;
+    z-index: 20;
+}
+.yes, .no {
+    border-color: rgb(253, 253, 253);
+    border-radius: 4px;
+    padding: 0px 5px 0 5px;
+    border: 2px solid;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
